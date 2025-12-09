@@ -8,7 +8,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const checkAdmin = async (address) => {
-      const adminAddress = '0x10E130F782b961eC76eDbE793E8014f166E33C91';
+      const adminAddress = '0x28FB1C063D8B8D21fCD0158999AcEaFBFE0bd301';
       if (address.toLowerCase() === adminAddress.toLowerCase()) {
         setIsAdmin(true);
       } else {
@@ -45,7 +45,7 @@ const Navbar = () => {
         const signerAddress = await signer.getAddress();
         setAccount(signerAddress);
         setIsConnected(true);
-        const adminAddress = '0x10E130F782b961eC76eDbE793E8014f166E33C91';
+        const adminAddress = '0x28FB1C063D8B8D21fCD0158999AcEaFBFE0bd301';
         if (signerAddress.toLowerCase() === adminAddress.toLowerCase()) {
           setIsAdmin(true);
         } else {

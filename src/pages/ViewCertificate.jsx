@@ -39,7 +39,7 @@ const ViewCertificate = () => {
       <div className="relative w-full max-w-[297mm] h-[210mm] bg-white border border-gray-300 shadow-lg rounded-lg flex flex-col justify-center items-center p-8">
         {/* Certificate Header */}
         <div className="text-center mb-8">
-          <img src={logo} className="w-40 mx-auto mb-4" alt="KBA Logo" />
+          <img src={logo} className="w-40 mx-auto mb-4" alt="SkillChain Logo" />
           <h3 className="text-6xl font-serif font-bold text-gray-800 mb-3">
             Kerala Blockchain Academy
           </h3>
